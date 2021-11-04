@@ -141,8 +141,8 @@ STATIC_ROOT = os.path.join(BASE_DIR / 'staticfiles')
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
-AWS_ACCESS_KEY_ID = 'AKIAZ7MBRLSVLJ7OW7CU'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'secretkey'
+AWS_SECRET_ACCESS_KEY = 'secretkey2'
 
 AWS_STORAGE_BUCKET_NAME = 'photoshare-kuba'
 AWS_QUERYSTRING_AUTH = False
